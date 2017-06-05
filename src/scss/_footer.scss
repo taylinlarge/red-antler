@@ -1,0 +1,39 @@
+.footer {
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+
+	@media screen and (min-width: $tablet-bp) {
+		display: flex;
+		justify-content: center;
+		align-items: center;			
+	}
+
+	.footer-row {
+		font-size: 11px;
+		color: #CCCCCC;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		font-family: $base-font;
+
+		@media screen and (min-width: $tablet-bp) {
+				flex-direction: row;
+				justify-content: space-between;
+				width: 100%;
+				margin: 0 20px;
+			}
+
+		.footer-bot {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-around;
+			align-items: center;
+			width: 170px;
+
+
+		}
+	}
+
+}
