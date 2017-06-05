@@ -1,0 +1,299 @@
+.row-1 {
+	height: 450px;
+
+	.disco {
+		height: 100%;
+		background-image: url(../../src/img/home-casper.jpg);
+		background-size: cover;
+		background-position: bottom;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+
+		.disco__text {
+			font-family: $base-font;
+		    padding-bottom: 10px;
+		    max-width: 370px;
+		    padding-left: 10px;
+		    color: white;
+
+		    @media screen and (min-width: $tablet-bp) {
+				padding-bottom: 40px;
+				padding-left: 40px;
+			}
+
+
+		    h1 {
+				font-size: $h1-size;
+		    	font-weight: bold;
+		    }
+		}
+	}
+}
+
+.row-3 {
+	height: 450px;
+
+	.hinge {
+		height: 100%;
+		background-image: url(../../src/img/hinge-casestudy-01.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.hinge__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.goby {
+		height: 100%;
+		background-image: url(../../src/img/goby-casestudy-01-crop-normal.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.goby__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.row-4 {
+	height: 450px;
+
+	.zagat {
+		height: 100%;
+		background-image: url(../../src/img/Zagat_Homepage.jpg);
+		background-size: cover;
+		background-position: left top;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+
+		.zagat__text {
+			font-family: $base-font;
+		    padding-bottom: 10px;
+		    max-width: 370px;
+		    padding-left: 10px;
+		    color: white;
+
+		    @media screen and (min-width: $tablet-bp) {
+				padding-bottom: 40px;
+				padding-left: 40px;
+			}
+
+
+		    h1 {
+				font-size: $h1-size;
+		    	font-weight: bold;
+		    }
+		}
+	}
+
+	.bolt {
+		height: 100%;
+		background-image: url(../../src/img/bolt-test-scene_2a.353.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.bolt__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}	
+}
+
+.row-5 {
+	height: 450px;
+
+	.ge {
+		height: 100%;
+		background-image: url(../../src/img/GE_thumb.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.ge__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.four-square {
+		height: 100%;
+		background-image: url(../../src/img/home-foursquare.jpg);
+		background-size: cover;
+		background-position: bottom;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+
+		.four-square__text {
+			font-family: $base-font;
+		    padding-bottom: 10px;
+		    max-width: 370px;
+		    padding-left: 10px;
+		    color: white;
+
+		    @media screen and (min-width: $tablet-bp) {
+				padding-bottom: 40px;
+				padding-left: 40px;
+			}
+
+
+		    h1 {
+				font-size: $h1-size;
+		    	font-weight: bold;
+		    }
+		}
+	}
+}
+
+.row-6 {
+	height: 450px;
+
+	.vevo {
+		height: 100%;
+		background-image: url(../../src/img/thumb-vevo.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.vevo__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.aloha {
+		height: 100%;
+		background-image: url(../../src/img/aloha.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.aloha__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.row-7 {
+	height: 450px;
+
+	.snowe {
+		height: 100%;
+		background-image: url(../../src/img/home-snowe.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.snowe__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.sugarpova {
+		height: 100%;
+		background-image: url(../../src/img/thumb-sugarpova.jpg);
+		background-size: cover;
+		background-position: center center;
+		display: flex;
+		align-items: flex-end;
+		color: white;
+		
+		.sugarpova__text {
+			font-family: $base-font;
+			padding-bottom: 10px;
+			max-width: 370px;
+			padding-left: 10px;
+			color: white;
+
+			h1 {
+				font-size: $h1-size;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+
+
+
+
