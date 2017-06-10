@@ -7,6 +7,7 @@ nav {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 1000;
 
 	@media screen and (min-width: $tablet-bp) {
 		height: 86px;
@@ -86,9 +87,19 @@ nav {
 		justify-content: space-around;
 		align-items: center;
 		height: 80%;
+		width: 100%;
+		margin-left: 0;
+
+		.active > a {
+				background: black;
+				color: white;
+		}
 
 		li {
 			list-style: none;
+			width: 90%;
+		    text-align: center;
+		    opacity: .8;
 
 			a {
 				font-family: $base-font;
@@ -113,6 +124,10 @@ nav {
 		list-style: none;
 		margin: 0;
 		height: 100%;
+
+		.active > a {
+			background: black;
+		}
 
 		a {
 			height: 100%;

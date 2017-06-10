@@ -1,0 +1,600 @@
+.casper-page {
+	.hero {
+		background-image: url(../../src/img/casper/casper-01.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 100vh;
+		width: 100%;
+		padding: 60px 0 0 0;
+
+		.hero__text {
+			padding: 10%;
+			color: white;
+			font-family: $base-font;
+			font-weight: bold;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			background: rgba(0, 0, 0, 0.1);
+
+			h3 {
+				font-family: $base-font;
+				font-size: 2em;
+				text-transform: uppercase;
+				font-style: italic;
+				margin: 0;
+				font-weight: bold;
+			}
+
+			h1 {
+				font-family: $base-font;
+				font-size: 3.5em;
+				text-transform: uppercase;
+				font-style: italic;
+				margin: 0;
+				font-weight: bold;
+			}
+		}
+	}
+
+	.well-slept {
+		.well-slept__text {
+			display: flex;
+			flex-direction: column;
+			padding: 10%;
+
+			h1 {
+				font-family: $base-font;
+				font-size: 1.3em;
+				margin-bottom: 40px;
+
+				@media screen and(min-width: $tablet-bp) {
+					font-size: 2.5em;
+				}
+			}
+
+			p {
+				font-size: 1.2em;
+				font-weight: 200;
+			}
+		}
+
+		.well-slept__img {
+			// width: 100%;
+			height: 450px;
+			padding: 0;
+			@media screen and(min-width: $tablet-bp) {
+				height: auto;
+
+				img {
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+	}
+
+	.casper-video {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+		padding: 0;
+
+		.video {
+			height: 100%;
+			width: 100%;
+			overflow: hidden;
+		}
+	}
+
+	.casper-logo {
+		width: 100%;
+		height: 300px;
+	    background-color: rgb(0, 35, 126);
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+
+	    @media screen and (min-width: $desktop-bp) {
+	    	height: 450px;
+	    }
+
+	    .casper-logo__img {
+    	    background-image: url(../../src/img/casper/logo-casper-011.svg);
+		    background-position: center center;
+		    background-size: contain;
+		    background-repeat: no-repeat;
+		    width: 100%;
+		    height: 15%;
+
+		    @media screen and(min-width: $tablet-bp) {
+				height: 30%;
+			}
+	    }
+	}
+
+	.night-vision {
+		@media screen and (min-width: $tablet-bp) {
+		    height: 100vh;
+		    padding: 10% 0;
+		}
+		.night-vision__text {
+			display: flex;
+			flex-direction: column;
+			padding: 10%;
+
+			@media screen and (min-width: $desktop-bp) {
+				padding: 0;		
+			}
+
+			h1 {
+				font-family: $base-font;
+				font-size: 1.6em;
+				margin-bottom: 40px;
+				font-weight: bold;
+
+				@media screen and (min-width: $desktop-bp) {
+					font-size: 3em;
+				}
+			}
+
+			p {
+				font-size: 1em;
+				font-weight: 200;
+
+				@media screen and (min-width: $desktop-bp) {
+					font-size: 1.4em;
+				}
+			}
+		}
+	}
+
+	.casper-lady {
+		width: 100%;
+		padding: 0;
+	}
+
+	.img-row {
+		.pineapple {
+			padding: 0;
+		}
+
+		.couple {
+			padding: 0;
+		}
+	}
+
+	.tucked {
+
+		@media screen and(min-width: $tablet-bp) {
+			padding: 10% 0;		
+		}
+		.tucked__text {
+			display: flex;
+			flex-direction: column;
+			padding: 10%;
+
+			@media screen and (min-width: $desktop-bp) {
+				padding: 0;		
+			}
+
+			h1 {
+				font-family: $base-font;
+				font-size: 1.6em;
+				margin-bottom: 40px;
+				font-weight: bold;
+
+				@media screen and (min-width: $desktop-bp) {
+					font-size: 3em;
+				}
+			}
+
+			p {
+				font-size: 1em;
+				font-weight: 200;
+
+				@media screen and (min-width: $desktop-bp) {
+					font-size: 1.4em;
+				}
+			}
+		}
+	}
+
+	.paper-row {
+		.paper-1, .paper-2 {
+			padding: 0;
+		}
+	}
+
+	.business {
+
+		.business__inner {
+
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		    padding: 20% 0;
+
+			h1 {
+				font-size: 2.125em;
+			    width: 300px;
+			    font-weight: bold;
+			    text-align: center;
+
+			    @media screen and(min-width: $tablet-bp) {
+					font-size: 2.875em;
+					width: 85%;
+				}
+			}
+
+			.business-logo {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				margin-top: 60px;
+			}
+		}
+	}
+
+	.casper-box {
+		padding: 0;
+	}
+
+	.america {
+		@media screen and (min-width: $tablet-bp) {
+		    height: 100vh;
+		    padding: 10% 0;
+		}
+		.america__text {
+			display: flex;
+			flex-direction: column;
+			padding: 10%;
+
+			@media screen and (min-width: $desktop-bp) {
+				padding: 0;		
+			}
+
+			h1 {
+				font-family: $base-font;
+				font-size: 1.6em;
+				margin-bottom: 40px;
+				font-weight: bold;
+
+				@media screen and (min-width: $desktop-bp) {
+					padding: 0;
+				}
+
+			}
+
+			p {
+				font-size: 1em;
+				font-weight: 200;
+
+				@media screen and (min-width: $desktop-bp) {
+					font-size: 1.4em;
+				}
+			}
+		}
+	}
+
+	.metro, .metro-2, .drawing, .taxi, .billboard-1, .billboard-2 {
+		padding: 0;
+	}
+
+	.metro-drawing, .billboard-row {
+		padding: 0;
+	}
+
+	.thinking {
+		padding: 10% 0;
+		.thinking__text {
+			display: flex;
+			flex-direction: column;
+			padding: 10%;
+
+			@media screen and (min-width: $desktop-bp) {
+				padding: 0;		
+			}
+
+			h1 {
+				font-family: $base-font;
+				font-size: 1.6em;
+				margin-bottom: 40px;
+				font-weight: bold;
+
+				@media screen and (min-width: $desktop-bp) {
+					padding: 0;
+				}
+			}
+
+			p {
+				font-size: 1em;
+				font-weight: 200;
+
+				@media screen and (min-width: $desktop-bp) {
+					font-size: 1.4em;
+				}
+			}
+		}
+	}
+
+	.casper-mock {
+		width: 100%;
+		height: auto;
+
+		.casper-mock__inner {
+
+			.site-inner {
+				margin: 0 30px;
+				padding-top: 30px;
+
+				@media screen and (min-width: $desktop-bp) {
+					margin-right: 100px;
+				}
+
+				.site {
+					background: #fff;
+				    border: 1px solid #e1e1e1;
+				    box-shadow: 0 0 50px rgba(0, 0, 0, 0.1);
+					border-radius: 10px;
+					padding: 5% 4%;
+					
+				}
+				
+			}
+
+			.product {
+				
+				.product-inner {
+					position: relative;
+				    width: auto;
+				    top: -300px;
+				    left: -80px;
+				    border: 1px solid lightgray;
+				    border-radius: 15px;
+				    padding: 15px 5px;
+				    background: white;
+				}
+			}
+
+			.mobile-inner {
+				margin-left: 50px;
+
+				.mobile {
+			        position: relative;
+				    width: auto;
+				    top: -60px;
+				    left: 200px;
+				    border: 1px solid lightgray;
+				    border-radius: 15px;
+				    padding: 15px 5px;
+					margin-right: 20px;
+				    background: white;
+				    // z-index: -1;
+
+				    @media screen and (min-width: $tablet-bp) {
+		    			top: -110px;
+		    			left: 420px;
+					}
+
+					@media screen and (min-width: $desktop-bp) {
+						left: -50px;
+						top: 40px;
+					}
+
+				    img {
+
+				    	height: 170px;
+
+				    	@media screen and (min-width: $tablet-bp) {
+							height: 310px;
+						}
+				    }
+				}
+			}
+		}
+	}
+
+	.icons {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: rgb(0, 35, 126);
+		height: 300px;
+
+		@media screen and(min-width: $desktop-bp) {
+			height: 100vh;
+		}
+		
+		.icons-img {
+			width: 70%;
+		}
+	}
+	
+	.site-big {
+		// width: 
+		padding: 8% 0;
+
+		.window-buttons{
+		    background: #e5e5e5;
+		    padding: 8px 10px;
+		    border-top-left-radius: 5px;
+		    border-top-right-radius: 5px;
+
+		    .single-button {
+	    	    width: 8px;
+			    height: 8px;
+			    border-radius: 100%;
+			    background: #fff;
+			    display: inline-block;
+			    margin: 0 1px;
+		    }
+		}
+	}
+
+	.real-site {
+		padding: 10% 0;
+
+		.real-site__text {
+			display: flex;
+			flex-direction: column;
+			padding: 10% 10%;
+
+			@media screen and (min-width: $desktop-bp) {
+				padding: 0;		
+			}
+
+			p {
+				;
+				font-size: 1em;
+				font-weight: 200;
+				margin-bottom: 30px;
+
+				@media screen and (min-width: $desktop-bp) {
+					font-size: 1.4em;
+				}
+			}
+
+			a {
+				color: black;
+				text-decoration: underline;
+			}
+		}
+	}
+
+	.work {
+		padding: 0;
+
+		h1 {
+			font-size: 2em;
+			font-weight: bold;
+		    margin-left: 40px;
+		    margin-bottom: 35px;
+
+		    @media screen and (min-width: $desktop-bp) {
+		    	font-size: 7em;
+		    	margin-left: 110px;
+		    }
+		}
+
+		.work__img {
+			height: 310px;
+
+			.ge {
+				background-image: url(../../src/img/casper/GE_thumb.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 35vh;
+				padding: 0;
+
+				@media screen and (min-width: $tablet-bp) {
+					height: 450px;
+					background-position: center;
+				}
+
+				h1 {
+					display: flex;
+					align-items: flex-end;
+					color: white;
+					padding: 7%;
+					margin: 0;
+					height: 100%;
+					width: 100%;
+
+					@media screen and (min-width: $desktop-bp) {
+				    	font-size: 2em;
+				    }
+				}
+			}
+
+			.allbirds {
+				background-image: url(../../src/img/casper/home-allbirds.jpg);
+				background-size: cover;
+				background-repeat: no-repeat;
+				height: 35vh;
+				padding: 0;
+
+				@media screen and (min-width: $tablet-bp) {
+					height: 450px;
+					background-position: center;
+				}
+
+				h1 {
+					display: flex;
+					align-items: flex-end;
+					color: white;
+					padding: 7%;
+					margin: 0;
+					height: 100%;
+					width: 100%;
+
+					@media screen and (min-width: $desktop-bp) {
+				    	font-size: 2em;
+				    }
+				}
+			}
+		}
+
+		.work-link {
+			padding: 15% 0;
+
+			@media screen and (min-width: $desktop-bp) {
+				padding: 5% 0;
+			}
+
+			a {
+				margin-left: 40px;
+				font-family: $base-font;
+				text-transform: uppercase;
+				border: 1px solid black;
+				padding: 20px 35px;
+				color: black;
+				transition: all 0.2s ease-in-out;
+
+				&:hover {
+					background-color: black;
+					color: white;
+					.arrow {
+						left: 20px;
+						color: white;
+					}
+
+				}
+
+				.arrow {
+					position: relative;
+					left: 0;
+					transition: all 0.2s ease-in-out;
+				}
+			}
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

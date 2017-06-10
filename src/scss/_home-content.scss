@@ -1,491 +1,495 @@
-.home-content {
-	width: 100%;
-	height: 100%;
-	font-family: $base-font;
-}
 
-.row-1 {
-	color: white;
-	height: 400px;
+.home {
 
-	@media screen and (min-width: $desktop-bp) {
-		height: 550px;
+
+	.home-content {
+		width: 100%;
+		height: 100%;
+		font-family: $base-font;
 	}
 
-	.intro-text {
-		background-color: #5500E2;
-		height: 100%;
-		margin-top: 60px;
-		display: flex;
-		align-items: flex-end;
-
-
-		@media screen and (min-width: $tablet-bp) {
-			padding-bottom: 40px;
-			padding-left: 40px;
-		}
+	.row-1 {
+		color: white;
+		height: 400px;
 
 		@media screen and (min-width: $desktop-bp) {
-				margin-top: 0;
-			}
-
-		h2 {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    font-size: 1.7em;
-		    max-width: 370px;
-		    padding-left: 10px;
+			height: 550px;
 		}
-	}
 
-	.beach {
-		height: 100%;
-		background-image: url(../../src/img/home-allbirds.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		display: flex;
-		align-items: flex-end;
+		.intro-text {
+			background-color: #5500E2;
+			height: 100%;
+			margin-top: 60px;
+			display: flex;
+			align-items: flex-end;
 
-		.beach__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
-		}
-	}
-
-
-}
-
-.row-2 {
-
-	height: 400px;
-
-	@media screen and (min-width: $desktop-bp) {
-		height: 550px;
-	}
-
-	.finger {
-		height: 100%;
-		background-image: url(../../src/img/MU_homepage_gloves_v2.jpg);
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-		display: flex;
-		align-items: flex-end;
-
-		.finger__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
-		}
-	}
-
-	.thoughts-1 {
-		height: 100%;
-		background-color: white;
-		display: flex;
-		align-items: center;
-		color: black;
-		font-weight: bold;
-
-		.thoughts-1__text {
-			padding-left: 10px;
 
 			@media screen and (min-width: $tablet-bp) {
+				padding-bottom: 40px;
 				padding-left: 40px;
 			}
 
-
-			p {
-				font-weight: bold;
-				margin-bottom: 10px;
-			}
-
-			h1 {
-				font-size: 1.7em;
-				font-weight: bold;
-				line-height: 1;
-				margin-bottom: 50px;
-			}
+			@media screen and (min-width: $desktop-bp) {
+					margin-top: 0;
+				}
 
 			h2 {
-				font-weight: bold;
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    font-size: 1.7em;
+			    max-width: 370px;
+			    padding-left: 10px;
+			}
+		}
+
+		.beach {
+			height: 100%;
+			background-image: url(../../src/img/home-allbirds.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			display: flex;
+			align-items: flex-end;
+
+			.beach__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
+			}
+		}
+
+
+	}
+
+	.row-2 {
+
+		height: 400px;
+
+		@media screen and (min-width: $desktop-bp) {
+			height: 550px;
+		}
+
+		.finger {
+			height: 100%;
+			background-image: url(../../src/img/MU_homepage_gloves_v2.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			display: flex;
+			align-items: flex-end;
+
+			.finger__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
+			}
+		}
+
+		.thoughts-1 {
+			height: 100%;
+			background-color: white;
+			display: flex;
+			align-items: center;
+			color: black;
+			font-weight: bold;
+
+			.thoughts-1__text {
+				padding-left: 10px;
 
 				@media screen and (min-width: $tablet-bp) {
-					font-size: 1.3em;
+					padding-left: 40px;
+				}
+
+
+				p {
+					font-weight: bold;
+					margin-bottom: 10px;
+				}
+
+				h1 {
+					font-size: 1.7em;
+					font-weight: bold;
+					line-height: 1;
+					margin-bottom: 50px;
+				}
+
+				h2 {
+					font-weight: bold;
+
+					@media screen and (min-width: $tablet-bp) {
+						font-size: 1.3em;
+					}
 				}
 			}
 		}
-	}
 
-	.bowery {
-		height: 100%;
-		background-image: url(../../src/img/Bowery_homepage_alt.jpg);
-		background-size: cover;
-		background-position: bottom;
-		display: flex;
-		align-items: flex-end;
-		color: white;
+		.bowery {
+			height: 100%;
+			background-image: url(../../src/img/Bowery_homepage_alt.jpg);
+			background-size: cover;
+			background-position: bottom;
+			display: flex;
+			align-items: flex-end;
+			color: white;
 
-		.bowery__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
+			.bowery__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
 
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
 			}
-
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
-		}
-	}
-}
-
-.row-3 {
-
-	height: 400px;
-
-	@media screen and (min-width: $desktop-bp) {
-		height: 550px;
-	}
-	
-	.disco {
-		height: 100%;
-		background-image: url(../../src/img/home-casper.jpg);
-		background-size: cover;
-		background-position: bottom;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.disco__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
 		}
 	}
 
-	.thoughts-2 {
-		height: 100%;
-		background-color: white;
-		display: flex;
-		align-items: center;
-		color: black;
-		font-weight: bold;
+	.row-3 {
 
-		.thoughts-2__text {
-			padding-left: 10px;
+		height: 400px;
 
-			@media screen and (min-width: $tablet-bp) {
-				padding-left: 40px;
+		@media screen and (min-width: $desktop-bp) {
+			height: 550px;
+		}
+		
+		.disco {
+			height: 100%;
+			background-image: url(../../src/img/home-casper.jpg);
+			background-size: cover;
+			background-position: bottom;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.disco__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
 			}
+		}
 
+		.thoughts-2 {
+			height: 100%;
+			background-color: white;
+			display: flex;
+			align-items: center;
+			color: black;
+			font-weight: bold;
 
-			p {
-				font-weight: bold;
-				margin-bottom: 10px;
-			}
-
-			h1 {
-				font-size: 1.7em;
-				font-weight: bold;
-				line-height: 1;
-				margin-bottom: 50px;
-			}
-
-			h2 {
-				font-weight: bold;
+			.thoughts-2__text {
+				padding-left: 10px;
 
 				@media screen and (min-width: $tablet-bp) {
-					font-size: 1.3em;
+					padding-left: 40px;
+				}
+
+
+				p {
+					font-weight: bold;
+					margin-bottom: 10px;
+				}
+
+				h1 {
+					font-size: 1.7em;
+					font-weight: bold;
+					line-height: 1;
+					margin-bottom: 50px;
+				}
+
+				h2 {
+					font-weight: bold;
+
+					@media screen and (min-width: $tablet-bp) {
+						font-size: 1.3em;
+					}
 				}
 			}
 		}
+
 	}
 
+
+	.row-4 {
+
+		height: 400px;
+
+		@media screen and (min-width: $desktop-bp) {
+			height: 550px;
+		}
+		
+		.birthday {
+			height: 100%;
+			background-image: url(../../src/img/home-anniversary.jpg);
+			background-size: cover;
+			background-position: bottom;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.birthday__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    @media screen and (min-width: $tablet-bp) {
+			    	max-width: 100%;
+			    }
+
+			    h1 {
+					font-size: 1.6em;
+					font-weight: bold;
+			    	line-height: 1;
+			    }
+			}
+		}
+
+		.snowe {
+			height: 100%;
+			background-image: url(../../src/img/home-snowe.jpg);
+			background-size: cover;
+			background-position: left;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.snowe__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
+			}
+		}
+	}
+
+	.row-5 {
+
+		height: 400px;
+
+		@media screen and (min-width: $desktop-bp) {
+			height: 550px;
+		}
+		
+		.talent {
+			height: 100%;
+			background-image: url(../../src/img/home-careers.jpg);
+			background-size: cover;
+			background-position: bottom;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.talent__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: 1.7em;
+			    	font-weight: bold;
+			    }
+			}
+		}
+
+		.coming-soon {
+			height: 100%;
+			background-image: url(../../src/img/home-june-1.jpg);
+			background-size: cover;
+			background-position: center;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.coming-soon__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: $h1-size;
+					line-height: 1;
+					font-weight: bold;
+			    	
+			    }
+			}
+		}
+
+		.zagat {
+			height: 100%;
+			background-image: url(../../src/img/Zagat_Homepage.jpg);
+			background-size: cover;
+			background-position: left top;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.zagat__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
+			}
+		}
+	}
+
+	.row-6 {
+
+		height: 400px;
+
+		@media screen and (min-width: $desktop-bp) {
+			height: 550px;
+		}
+		
+		.four-square {
+			height: 100%;
+			background-image: url(../../src/img/home-foursquare.jpg);
+			background-size: cover;
+			background-position: bottom;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.four-square__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
+			}
+		}
+
+		.instagram {
+			height: 100%;
+			background-image: url(../../src/img/home-nice-antlers.jpg);
+			background-size: cover;
+			background-position: top;
+			display: flex;
+			align-items: flex-end;
+			color: white;
+
+			.instagram__text {
+				font-family: $base-font;
+			    padding-bottom: 10px;
+			    max-width: 370px;
+			    padding-left: 10px;
+			    color: white;
+
+			    @media screen and (min-width: $tablet-bp) {
+					padding-bottom: 40px;
+					padding-left: 40px;
+				}
+
+
+			    h1 {
+					font-size: $h1-size;
+			    	font-weight: bold;
+			    }
+			}
+		}
+	}
 }
-
-
-.row-4 {
-
-	height: 400px;
-
-	@media screen and (min-width: $desktop-bp) {
-		height: 550px;
-	}
-	
-	.birthday {
-		height: 100%;
-		background-image: url(../../src/img/home-anniversary.jpg);
-		background-size: cover;
-		background-position: bottom;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.birthday__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    @media screen and (min-width: $tablet-bp) {
-		    	max-width: 100%;
-		    }
-
-		    h1 {
-				font-size: 1.6em;
-				font-weight: bold;
-		    	line-height: 1;
-		    }
-		}
-	}
-
-	.snowe {
-		height: 100%;
-		background-image: url(../../src/img/home-snowe.jpg);
-		background-size: cover;
-		background-position: left;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.snowe__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
-		}
-	}
-}
-
-.row-5 {
-
-	height: 400px;
-
-	@media screen and (min-width: $desktop-bp) {
-		height: 550px;
-	}
-	
-	.talent {
-		height: 100%;
-		background-image: url(../../src/img/home-careers.jpg);
-		background-size: cover;
-		background-position: bottom;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.talent__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    h1 {
-				font-size: 1.7em;
-		    	font-weight: bold;
-		    }
-		}
-	}
-
-	.coming-soon {
-		height: 100%;
-		background-image: url(../../src/img/home-june-1.jpg);
-		background-size: cover;
-		background-position: center;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.coming-soon__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    h1 {
-				font-size: $h1-size;
-				line-height: 1;
-				font-weight: bold;
-		    	
-		    }
-		}
-	}
-
-	.zagat {
-		height: 100%;
-		background-image: url(../../src/img/Zagat_Homepage.jpg);
-		background-size: cover;
-		background-position: left top;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.zagat__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
-		}
-	}
-}
-
-.row-6 {
-
-	height: 400px;
-
-	@media screen and (min-width: $desktop-bp) {
-		height: 550px;
-	}
-	
-	.four-square {
-		height: 100%;
-		background-image: url(../../src/img/home-foursquare.jpg);
-		background-size: cover;
-		background-position: bottom;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.four-square__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
-		}
-	}
-
-	.instagram {
-		height: 100%;
-		background-image: url(../../src/img/home-nice-antlers.jpg);
-		background-size: cover;
-		background-position: top;
-		display: flex;
-		align-items: flex-end;
-		color: white;
-
-		.instagram__text {
-			font-family: $base-font;
-		    padding-bottom: 10px;
-		    max-width: 370px;
-		    padding-left: 10px;
-		    color: white;
-
-		    @media screen and (min-width: $tablet-bp) {
-				padding-bottom: 40px;
-				padding-left: 40px;
-			}
-
-
-		    h1 {
-				font-size: $h1-size;
-		    	font-weight: bold;
-		    }
-		}
-	}
-}
-
 
 
 
