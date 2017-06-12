@@ -25,6 +25,8 @@
 			a {
 				height: 100%;
 				width: 100%;
+				display: flex;
+				align-items: flex-end;
 			}
 
 			.disco__text {
@@ -267,7 +269,7 @@
 
 		.bolt {
 			height: 50vh;
-			background-image: url(../../src/img/bolt-test-scene_2a.353.jpg);
+			background-image: url(../../src/img/Bolt-test.jpg);
 			background-size: cover;
 			background-position: center center;
 			display: flex;
